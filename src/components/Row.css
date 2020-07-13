@@ -1,0 +1,13 @@
+.row-hover:hover{
+  
+    animation: hover-row-animation 0.3s ease-in-out forwards;
+}
+@keyframes hover-row-animation{
+    0%{
+        border: 0px solid #FF0000;
+    }
+
+    100%{
+        border: 2px solid #FF0000;
+    }
+}
